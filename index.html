@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Jogo da velha</h1>
+    <div id="buttonsContainer">
+      <button id="2players">2 Jogadores</button>
+      <button id="bot">Um jogador</button>
+    </div>
+
+    <div id="container" class="hide">
+      <div class="box" id="block-1"></div>
+      <div class="box" id="block-2"></div>
+      <div class="box" id="block-3"></div>
+      <div class="box" id="block-4"></div>
+      <div class="box" id="block-5"></div>
+      <div class="box" id="block-6"></div>
+      <div class="box" id="block-7"></div>
+      <div class="box" id="block-8"></div>
+      <div class="box" id="block-9"></div>
+
+      <div id="scoreboardContainer">
+        <span class="scoreBox">
+          <span id="xScoreboard">X</span>:
+          <span id="scoreboard1">0</span>
+        </span>
+
+        <span class="scoreBox">
+          <span id="oScoreboard"></span>:
+          <span id="scoreboard2">0</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="hide">
+      <div class="x">X</div>
+      <div class="o"></div>
+    </div>
+
+    <div id="message" class="hide">
+      <p></p>
+    </div>
+  </body>
+</html>
